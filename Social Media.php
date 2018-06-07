@@ -21,3 +21,5 @@ require_once(plugin_dir_path(__FILE__).'includes/social media scripts.php');
 
 
 require_once(plugin_dir_path(__FILE__).'includes/social media class.php');
+
+require_once(plugin_dir_path(__FILE__).'includes/Menu/social media menu.php');
