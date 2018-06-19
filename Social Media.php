@@ -21,9 +21,6 @@ if(!defined('ABSPATH'))
 
 require_once(plugin_dir_path(__FILE__).'includes/social media scripts.php');
 
-
-require_once(plugin_dir_path(__FILE__).'includes/social media class.php');
-
 require_once(plugin_dir_path(__FILE__).'admin/social media menu.php');
 
 require_once(plugin_dir_path(__FILE__).'widgets/widget.php');
