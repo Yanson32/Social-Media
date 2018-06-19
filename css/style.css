@@ -1,0 +1,35 @@
+.sm_icon
+{
+
+}
+
+.fa
+{
+  background-color:green;
+}
+
+.Facebook
+{
+  background-color:#045FB4;
+}
+.Linkedin
+{
+  background-color:#0489B1;
+}
+.Twitter
+{
+  background-color:#81BEF7;
+}
+.Pinterest
+{
+  background-color:red;
+}
+i
+{
+  padding:10px;
+  color:black;
+}
+i:hover
+{
+  color:white;
+}

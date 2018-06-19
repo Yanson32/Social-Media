@@ -1,5 +1,5 @@
 <?php
-  require_once(plugin_dir_path(__FILE__).'/../supported social media.php');
+  require_once(plugin_dir_path(__FILE__).'../includes/supported social media.php');
 /************************************************************************************************
 *	Purpose:	Create menu page
 *************************************************************************************************/
@@ -58,6 +58,7 @@ function sm_register_main_menu_settings()
 function sm_twitter_callback()
 {
   $twitter_link = esc_attr(get_option('sm_twitter_link'));
+
   echo '<input type="text" name="sm_twitter_link" value="'.$twitter_link.'" placeholder="Twitter Link">';
 }
 
@@ -87,5 +88,5 @@ function sm_pinterest_callback()
 
 function sm_social_media_link_section_callback()
 {
-  echo "sm_social_media_link_callback";
+  //echo "sm_social_media_link_callback";
 }
